@@ -1,0 +1,741 @@
+/*
+ * New Styles
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+
+
+.sidebar-sublist-0 .nav-sidebar-header__graphic {
+     background: #9C426C;
+}
+
+ 
+ /*
+  * Sidebar %Complete 
+  */
+ .nav-sidebar-header__progress-track, 
+ .nav-sidebar-header__progress-text {
+     display: none;
+ }
+ .lesson-progress__tooltip.lesson-progress__tooltip--sidebar {
+     display: none!important;
+ }
+ .classic .nav-sidebar-header__inner:not(.nav-sidebar-header__inner--compact) {
+     padding-bottom: 4rem;    
+ }
+ .nav-sidebar__outline-item:first-child .nav-sidebar__outline-section-item--active:after{
+     border-color: #9C426C;
+ }
+ .nav-sidebar__outline-item:first-child .progress-circle {
+     color: #9C426C!important;
+ }
+ .nav-sidebar__outline-item:first-child .progress-circle__runner{
+    stroke: #9C426C!important;
+ }
+ .nav-sidebar__outline-item:first-child  .progress-circle__runner--done{
+    fill: #9C426C!important;
+ }
+
+ .classic.sidebar-sublist-0 .nav-sidebar__outline-item--active:after, 
+ .classic.sidebar-sublist-0 .nav-sidebar__outline-section-item--active:after{
+    border-color: #9C426C;
+ }
+ 
+ .lesson-nav--previous .lesson-nav__link-text[name] {
+     font-size: 0;
+ }
+ .lesson-nav--previous .lesson-nav__link-text[name]::before {
+     content: attr(name);
+     font-size: 15px;
+ }
+ 
+ 
+ /*
+  * Progress
+  */
+ .progress {
+     visibility: hidden;
+ }
+ .progress-bar {
+     display: none;
+ }
+ 
+ 
+ /*
+  * Animations
+  */
+ .continue-btn{
+     padding-top: 30px;
+     padding-bottom: 30px;
+     -webkit-transition: all ease-in-out 300ms;
+     -o-transition: all ease-in-out 300ms;
+     transition: all ease-in-out 300ms;
+ }
+ .continue-btn:hover {
+     opacity: .8;
+ }
+ 
+ /*
+  * Accordion icon
+ */
+ .blocks-accordion__header {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
+ }
+ .blocks-accordion__title .blocks-accordion__icon {
+     font-size: 0;
+ }
+ .blocks-accordion__title .blocks-accordion__icon:before {
+     content: '';
+     display: block;
+     width: 40px;
+     height: 37px;
+     background-image: url(chat.svg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ .custom-accordion .blocks-accordion__item {
+     border-top-color: #A6BBC3;
+ }
+ .custom-accordion .block-card.bg--light, 
+ .custom-accordion .blocks-accordion__wrapper {
+     -webkit-box-shadow: none;
+             box-shadow: none;
+     border-left-color: transparent;
+     border-right-color: transparent;
+     border-bottom-color: #A6BBC3;
+ }
+ .custom-accordion + .custom-accordion .blocks-accordion__item:first-child {
+     border-top: none;
+ }
+ .custom-accordion .blocks-accordion__toggler {
+     font-size: 0;
+     position: relative;
+ }
+ .custom-accordion .blocks-accordion__toggler::before {
+     content: '';
+     background-image: url(arrow_down.png);
+     display: block;
+     width: 51px;
+     height: 51px;
+     position: absolute;
+     right: 0;
+     top: 50%;
+     -webkit-transform: translateY(-50%) rotate(180deg);
+         -ms-transform: translateY(-50%) rotate(180deg);
+             transform: translateY(-50%) rotate(180deg);
+ }
+ .custom-accordion .blocks-accordion__item--closed .blocks-accordion__toggler::before{
+     -webkit-transform: translateY(-50%);
+         -ms-transform: translateY(-50%);
+             transform: translateY(-50%);
+ }
+ @media(max-width:760px){
+     .custom-accordion .blocks-accordion__header {
+         padding: 15px 20px;
+     }
+     .custom-accordion .blocks-accordion__toggler::before {
+         width: 40px;
+         height: 40px;
+         background-size: contain;
+         background-repeat: no-repeat;
+         background-position: center;
+     }
+ }
+ 
+ 
+ /* * * * * * * * * * * * * * * 
+  * Recolor Unbranded sections 
+  * * * * * * * * * * * * * * */
+ /* 
+     1. Prevalence
+     lesson-id: "Awp9-1w2e1wOtK8Kd3PqqSuxZ8V9QXNT"
+ */
+ [data-lesson-id="Awp9-1w2e1wOtK8Kd3PqqSuxZ8V9QXNT"] .lesson-header__top-wrap {
+     color: #9C426C;
+ }
+ [data-lesson-id="Awp9-1w2e1wOtK8Kd3PqqSuxZ8V9QXNT"] .lesson-header__top-wrap:after{
+    background-color: #9C426C!important;
+ }
+ [data-lesson-id="Awp9-1w2e1wOtK8Kd3PqqSuxZ8V9QXNT"] .brand--color {
+     color: #9C426C!important;
+ }
+ [data-lesson-id="Awp9-1w2e1wOtK8Kd3PqqSuxZ8V9QXNT"] .brand--beforeBackground:before,
+ [data-lesson-id="Awp9-1w2e1wOtK8Kd3PqqSuxZ8V9QXNT"] .brand--background {
+     background-color: #9C426C !important;
+ }
+ [data-lesson-id="Awp9-1w2e1wOtK8Kd3PqqSuxZ8V9QXNT"] .brand--border{
+     border-color: #9C426C !important;
+ }
+ /* 
+     2. Clinical Burden
+     lesson-id: "OUNcLqRpKWGS6dCuKX_3DWfSc3ut1tBx"
+ */
+ [data-lesson-id="OUNcLqRpKWGS6dCuKX_3DWfSc3ut1tBx"] .lesson-header__top-wrap {
+    color: #9C426C;
+}
+[data-lesson-id="OUNcLqRpKWGS6dCuKX_3DWfSc3ut1tBx"] .lesson-header__top-wrap:after{
+   background-color: #9C426C!important;
+}
+[data-lesson-id="OUNcLqRpKWGS6dCuKX_3DWfSc3ut1tBx"] .brand--color {
+    color: #9C426C!important;
+}
+[data-lesson-id="OUNcLqRpKWGS6dCuKX_3DWfSc3ut1tBx"] .brand--beforeBackground:before,
+[data-lesson-id="OUNcLqRpKWGS6dCuKX_3DWfSc3ut1tBx"] .brand--background {
+    background-color: #9C426C !important;
+}
+[data-lesson-id="OUNcLqRpKWGS6dCuKX_3DWfSc3ut1tBx"] .brand--border{
+    border-color: #9C426C !important;
+}
+ 
+ /* 
+     3. Economic Burden
+     lesson-id: "wv_tQWB9taWruvm1xnlIQs-I8LjGpnwQ"
+ */
+ [data-lesson-id="wv_tQWB9taWruvm1xnlIQs-I8LjGpnwQ"] .lesson-header__top-wrap {
+    color: #9C426C;
+}
+[data-lesson-id="wv_tQWB9taWruvm1xnlIQs-I8LjGpnwQ"] .lesson-header__top-wrap:after{
+   background-color: #9C426C!important;
+}
+[data-lesson-id="wv_tQWB9taWruvm1xnlIQs-I8LjGpnwQ"] .brand--color {
+    color: #9C426C!important;
+}
+[data-lesson-id="wv_tQWB9taWruvm1xnlIQs-I8LjGpnwQ"] .brand--beforeBackground:before,
+[data-lesson-id="wv_tQWB9taWruvm1xnlIQs-I8LjGpnwQ"] .brand--background {
+    background-color: #9C426C !important;
+}
+[data-lesson-id="wv_tQWB9taWruvm1xnlIQs-I8LjGpnwQ"] .brand--border{
+    border-color: #9C426C !important;
+}
+
+ /* 
+     4. PD Management with Levodopa
+     lesson-id: "bcB_4KG3lOtKGYkTKfJ_8AK_4laTZ1uk"
+ */
+ [data-lesson-id="bcB_4KG3lOtKGYkTKfJ_8AK_4laTZ1uk"] .lesson-header__top-wrap {
+    color: #9C426C;
+}
+[data-lesson-id="bcB_4KG3lOtKGYkTKfJ_8AK_4laTZ1uk"] .lesson-header__top-wrap:after{
+   background-color: #9C426C!important;
+}
+[data-lesson-id="bcB_4KG3lOtKGYkTKfJ_8AK_4laTZ1uk"] .brand--color {
+    color: #9C426C!important;
+}
+[data-lesson-id="bcB_4KG3lOtKGYkTKfJ_8AK_4laTZ1uk"] .brand--beforeBackground:before,
+[data-lesson-id="bcB_4KG3lOtKGYkTKfJ_8AK_4laTZ1uk"] .brand--background {
+    background-color: #9C426C !important;
+}
+[data-lesson-id="bcB_4KG3lOtKGYkTKfJ_8AK_4laTZ1uk"] .brand--border{
+    border-color: #9C426C !important;
+} 
+
+ /* 
+     5. Impact of COMT on Levodopa
+     lesson-id: "l244h8-8VGp9OLh9EEbhf10IdodIZnde"
+ */
+ [data-lesson-id="l244h8-8VGp9OLh9EEbhf10IdodIZnde"] .lesson-header__top-wrap {
+    color: #9C426C;
+}
+[data-lesson-id="l244h8-8VGp9OLh9EEbhf10IdodIZnde"] .lesson-header__top-wrap:after{
+   background-color: #9C426C!important;
+}
+[data-lesson-id="l244h8-8VGp9OLh9EEbhf10IdodIZnde"] .brand--color {
+    color: #9C426C!important;
+}
+[data-lesson-id="l244h8-8VGp9OLh9EEbhf10IdodIZnde"] .brand--beforeBackground:before,
+[data-lesson-id="l244h8-8VGp9OLh9EEbhf10IdodIZnde"] .brand--background {
+    background-color: #9C426C !important;
+}
+[data-lesson-id="l244h8-8VGp9OLh9EEbhf10IdodIZnde"] .brand--border{
+    border-color: #9C426C !important;
+} 
+
+
+[data-lesson-id="X76FruaXnN_D93oo97r9c045WFaI2JFO"] [data-block-id="clbfckiqu00a13b6988gutmvz"] .blocks-tabs__content-item[id$="-0"] .blocks-tabs__image .img:after {
+    content: '*P=0.002, adjusted P value was calculated using a gatekeeping procedure controlling for multiplicity¹ \A †82% of patients in both groups were also taking concomitant PD medications in addition to levodopa/DDCI, including dopamine agonists (68%), amantadine (23%), MAO-B inhibitors (20%), and anticholinergics (5%).¹ \A\A DDCI=DOPA decarboxylase inhibitor; LS=least-squares; MAO=monoamine oxidase.';
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-weight: 300;
+    white-space: pre-wrap;
+ }
+ [data-lesson-id="X76FruaXnN_D93oo97r9c045WFaI2JFO"] [data-block-id="clbfckiqu00a13b6988gutmvz"] .blocks-tabs__content-item[id$="-1"] .blocks-tabs__image .img:after {
+    content: "*P=0.008, adjusted P value was calculated using Dunnett's alpha level adjustment to control for multiplicity.¹ \A †85% of patients taking ONGENTYS capsules and 81% of patients taking placebo were also taking concomitant PD medications in addition to levodopa/DDCI, including dopamine agonists (70%), amantadine (21%), MAO-B inhibitors (20%), and anticholinergics (12%).¹ \A\A DDCI=DOPA decarboxylase inhibitor; LS=least-squares; MAO=monoamine oxidase.";
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-weight: 300;
+    white-space: pre-wrap;
+ }
+ [data-lesson-id="X76FruaXnN_D93oo97r9c045WFaI2JFO"] [data-block-id="cl4zrkk8e00163b6qta2fs3ts"] .blocks-accordion__item:first-child .img:after {
+    content: "AE=adverse event; D=day; DDCI=dopamine decarboxylase inhibitor; OL=open label; PSV=post study visit; V=visit.";
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-weight: 300;
+    white-space: pre-wrap;
+ }
+
+
+ [data-lesson-id="Mn6EyFGN8XH-A-Pq1zw0jLrI8BtXgOE8"] [data-block-id="clbfckiqu00a13b6988gutmvz"] .blocks-tabs__content-item[id$="-0"] .blocks-tabs__image .img:after {
+    content: 'H&Y=Hoehn and Yahr; DDCI=dopa decarboxylase inhibitor.';
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-weight: 300;
+    white-space: pre-wrap;
+ }
+ [data-lesson-id="Mn6EyFGN8XH-A-Pq1zw0jLrI8BtXgOE8"] [data-block-id="clbfckiqu00a13b6988gutmvz"] .blocks-tabs__content-item[id$="-1"] .blocks-tabs__image .img:after {
+    content: 'DDCI=dopa decarboxylase inhibitor.';
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-weight: 300;
+    white-space: pre-wrap;
+ }
+ [data-lesson-id="Mn6EyFGN8XH-A-Pq1zw0jLrI8BtXgOE8"] [data-block-id="clg3fwqju023611g7hz0zhd6s"] .blocks-accordion__item:first-child .img:after {
+    content: "AE=adverse event; D=day; DDCI=dopamine decarboxylase inhibitor; OL=open label; PSV=post study visit; V=visit.";
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-weight: 300;
+    white-space: pre-wrap;
+ }
+
+
+ [data-lesson-id="2bBxijK3rS4iqDUH8nHl52iRKv9wB538"] [data-block-id="clbfckiqu00a13b6988gutmvz"] .blocks-tabs__content-item[id$="-0"] .blocks-tabs__image:after{
+    content: '*Includes patients who were taking ONGENTYS 50 mg in the double-blind period and continued taking ONGENTYS in the open-labelextension with dosing per the study design. \A DDCI=dopa decarboxylase inhibitor.';
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-weight: 300;
+    white-space: pre-wrap;
+ }
+ /* [data-lesson-id="2bBxijK3rS4iqDUH8nHl52iRKv9wB538"] [data-block-id="clbfckiqu00a13b6988gutmvz"] .blocks-tabs__content-item[id$="-0"] .blocks-tabs__image .img:after {
+    content: '~91% of patients who completed the double-blind study (N=542) chose to enroll in the 1-year open-label extension period—with ~87% staying on through the end of 1 year. \A A mean 2.00-hour reduction in daily OFF time from double-blind baseline was seen for ONGENTYS (N=98) at Week 52.*';    
+    display: block;
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 400;
+    white-space: pre-wrap;
+ } */
+ [data-lesson-id="2bBxijK3rS4iqDUH8nHl52iRKv9wB538"] [data-block-id="clbfckiqu00a13b6988gutmvz"] .blocks-tabs__content-item[id$="-1"] .blocks-tabs__image:after{
+    content: '*Post hoc analyses. Good ON time data from the open-label extension period is presented (based on prespecified Last Observation Carried Forward analysis approach) broken down by visit by dose.² \A †Includes patients who were taking ONGENTYS 50 mg in the double-blind period and continued taking ONGENTYS in the open-label extension with dosing per the study design.² \A DDCI=dopa decarboxylase inhibitor.';
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-weight: 300;
+    white-space: pre-wrap;
+ }
+ /* [data-lesson-id="2bBxijK3rS4iqDUH8nHl52iRKv9wB538"] [data-block-id="clbfckiqu00a13b6988gutmvz"] .blocks-tabs__content-item[id$="-1"] .blocks-tabs__image .img:after {
+    content: '~98% of patients who completed the double-blind study (N=376) chose to enroll in the 1-year open-label extension period—with ~78% staying on through the end of 1 year.\A A mean 2.64-hour reduction in daily OFF time from double-blind baseline was seen for ONGENTYS (N=118) at Week 52.²,†';    
+    display: block;
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 400;
+    white-space: pre-wrap;
+ } */
+ [data-lesson-id="2bBxijK3rS4iqDUH8nHl52iRKv9wB538"] [data-block-id="clg3nphgr01ty0zcnhyak4uby"] .blocks-accordion__item:first-child .img:after {
+    content: "AE=adverse event; D=day; DDCI=dopamine decarboxylase inhibitor; OL=open label; PSV=post study visit; V=visit.";
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-weight: 300;
+    white-space: pre-wrap;
+ }
+
+ [data-lesson-id="6wgkUfSuoCFGR0mf0QhQ-zLO0nvd-JCb"] [data-block-id="clg3p451p008711fy66x8c13j"] .blocks-accordion__item:first-child .img:after {
+    content: "AE=adverse event; D=day; DDCI=dopamine decarboxylase inhibitor; OL=open label; PSV=post study visit; V=visit.";
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-weight: 300;
+    white-space: pre-wrap;
+ }
+
+ [data-lesson-id="fEy-XYiXr9Gl2LaDGv79yRoXAsgSXLz-"] [data-block-id="clg3ob4xy003312cn1aj69ano"] .blocks-accordion__item:first-child .img:after {
+    content: "AE=adverse event; D=day; DDCI=dopamine decarboxylase inhibitor; OL=open label; PSV=post study visit; V=visit.";
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-weight: 300;
+    white-space: pre-wrap;
+ }
+
+
+ 
+  /* 
+     11. Overview
+     lesson-id: "cxym3v_N5o8XpfxT0nSjdfja74qrXvWz"
+ */
+ /* [data-block-id="cl656kj9o003q3b6q2q3q71la"] .block-impact {
+     background: transparent -webkit-gradient(linear,left top, right top,from(#00b0af),to(#ff6b00)) 0 0 no-repeat;
+     background: transparent -o-linear-gradient(left,#00b0af,#ff6b00) 0 0 no-repeat;
+     background: transparent linear-gradient(90deg,#00b0af,#ff6b00) 0 0 no-repeat;
+ }
+
+ [data-lesson-id="0OIy0LyXmpv-6ceEKlsR9LnAqe-i8Hho"] [data-block-id="cl2dphyyi000y3g6jkgxi9pk9"] .blocks-tabs__content-item[id$="-0"] .blocks-tabs__image .img:after {
+    content: 'Post hoc analysis of outcomes are shown here at Week 6 in the pooled DBPC population (central-rater scoring only) and at Weeks 48 and 52 in the pooled long-term population (central-rater scoring for KINECT 3 and site-rater scoring for KINECT 4), based on observed cases. Least squares mean presented for Week 6; means presented for Weeks 48 and 52.';
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 400;
+ }
+
+ [data-block-id="cl6f4ftm000403b6qotqro6xk"] .fr-view ul {
+    color: #fff;
+    line-height: 1;
+ } */
+
+
+/* * * * * * * * * * * * * * * 
+ * Floating Modal 
+ * * * * * * * * * * * * * * */
+.block-impact--note-floatingmodal .block-impact__container {
+    position: fixed;
+    top: 290px;
+    right: 30px;
+    background: #fff;
+    z-index: 999999;
+    padding: 0;
+    max-width: 300px;
+    -webkit-box-shadow: 0 0 10px #00000036;
+            box-shadow: 0 0 10px #00000036;
+    height: 50%;
+    max-height: 600px;
+    overflow: hidden;
+    border: 2px solid #00b0af;
+    -webkit-transition: all ease-in-out 300ms;
+    -o-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+    margin: 0;
+}
+.floating-modal {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    position: relative;
+    height: 100%;
+}
+.floating-modal__title {
+    background: #f6f7f7;
+    color: #02468c;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    /* white-space: nowrap; */
+}
+.floating-modal__prompt {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    right: 10px;
+    top: 40px;
+    overflow-y: auto;
+}
+.floating-modal__prompt a {
+    color: #00b0af;
+}
+.floating-modal__prompt sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+.floating-modal__prompt p {
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+.floating-modal__prompt p:first-child {
+    line-height: 0;
+}
+.floating-modal__prompt>p>s{
+    font-size: 0;
+}
+.floating-modal__prompt>p>s::before {
+    content: '';
+    background-image: url(ONG_US_RM_Prom_RGB_FC_Pos_OD.png);
+    width: 95%;
+    height: 50px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.floating-modal__prompt strong {
+    font-weight: bold;
+}
+.floating-modal__link {
+    font-size: 0;
+    position: absolute;
+    bottom: 0;
+    background: #00b0af;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    padding: 5px;
+}
+.floating-modal__link a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.floating-modal__link a:hover{
+    text-decoration: underline;
+}
+
+
+/* scrollbar */
+.block-impact--note-floatingmodal .floating-modal__prompt::-webkit-scrollbar {
+    width: 10px;
+} 
+.block-impact--note-floatingmodal .floating-modal__prompt::-webkit-scrollbar-track {
+    background-color: #f6f7f7;
+    border-radius: 4px;
+} 
+.block-impact--note-floatingmodal .floating-modal__prompt::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 4px;
+}
+
+@media(min-width: 1525px){
+    .block-impact--note-floatingmodal .block-impact__container {
+    width: 350px;
+  }
+
+  .lesson--open .block-impact--note-floatingmodal .block-impact__container {
+    width: 300px;
+  }
+}
+@media (min-width:1401px) and (max-width:1524px){
+    .floating-modal__title span {
+        max-width: 150px;
+        display: block;
+        margin: 0 auto;
+    }
+    .floating-modal__prompt{
+        top: 60px;
+    }
+}
+@media (min-width:1401px) and (max-width:1440px){
+    .course-navigation__sidebar--nav-open .floating-modal__title span {
+        /* max-width: 135px; */
+        font-size: 14px;
+    }
+    .course-navigation__sidebar--nav-open .floating-modal__prompt{
+        top: 70px;
+    }
+}
+
+@media(max-width: 1400px){
+    .blocks-lesson.has-modal {
+        padding-bottom: 110px;
+        padding-bottom: 200px;
+    }
+    .floating-modal__link{
+        /* display: none; */
+    }
+    .floating-modal__title{
+        text-align: left;
+    }
+   .floating-modal__title:after{
+        content: '+';        
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1em;
+        color: #636363;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .open .floating-modal__title:after {
+        content: '-';
+    }
+    .floating-modal__prompt{
+        /* bottom: 0; */
+    }
+    .floating-modal__prompt>p * {
+        font-size: 16px!important;
+    }
+    .floating-modal__prompt>p>s{
+        font-size: 0!important;
+    }
+    .floating-modal__prompt p:first-child{
+        display: none;
+    }
+    .floating-modal__title{
+        position: relative;
+    }
+    .block-impact--note-floatingmodal .block-impact__container {
+        max-width: 100%;
+        width: 100%;
+        left: 0!important;
+        bottom: 0;
+        top: auto;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        border: none;
+        box-shadow: none;
+        /* max-height: 115px; */
+        max-height: 200px;
+    }
+    .block-impact--note-floatingmodal .block-impact__container.open {
+        height: 100%;
+        max-height: none;
+    }
+    .block-impact__container.open .floating-modal__title{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .block-impact__container.open .floating-modal__prompt{
+        top: 60px;
+    }
+    .floating-modal__prompt>p>s::before{
+        display: none;
+    }
+}
+@media(max-width:742px){
+    .blocks-lesson.has-modal {
+        /* padding-bottom: 130px; */
+        padding-bottom: 150px;
+    }
+    .block-impact--note-floatingmodal .block-impact__container {
+        /* max-height: 135px; */
+        max-height: 150px;
+    }
+}
+@media(max-width: 380px){
+    .floating-modal__title{
+        padding-right: 40px;
+    }
+}
+
+
+@media (min-width: 52.5em) {
+    .block-image__col:first-child {
+        margin-left: 8.3333333333%;
+        width: 83.3333333333%;
+    }
+    .block-image--text-aside.block-image--small .block-image__col:first-child {
+        margin-left: 8.3333333333%;
+    }
+    .block-image--text-aside.block-image--reverse.block-image--small .block-image__col:last-child {
+        margin-left: 0;
+        margin-right: 8.3333333333%;
+        width: 50%;
+    }    
+}
+
+
+
+[data-block-id="cl4xht73m00o53b6x03p0qxq1"] .block-list__checkbox{
+    background-color: #9C426C !important;
+}
+[data-block-id="cl4xht73m00o53b6x03p0qxq1"] .block-list__checkbox .block-list__checkbox__icon {
+    color: #fff;
+}
+[data-block-id="cl4xht73m00o53b6x03p0qxq1"] .block-list__checkbox .block-list__checkbox__icon {
+    opacity: 1!important;
+}
+
+
+.cover__details-content:after{
+    content: '© Neurocrine Biosciences, Inc. All Rights Reserved. CP-OPC-US-0637';
+    display: block;
+    text-align: center;
+    padding-top: 90px;
+    font-family: lato,sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+}
+
+
+
+/* * * * * * * * * * * * * * * 
+ * Adding logo to Header of Lesson 
+ * * * * * * * * * * * * * * */
+.sidebar-sublist-1 .page__header h1.fr-view,
+.sidebar-sublist-2 .page__header h1.fr-view,
+.sidebar-sublist-3 .page__header h1.fr-view,
+.sidebar-sublist-4 .page__header h1.fr-view {
+    max-width: 90%;
+}
+.sidebar-sublist-1 .page__header,
+.sidebar-sublist-2 .page__header,
+.sidebar-sublist-3 .page__header,
+.sidebar-sublist-4 .page__header {
+    background-image: url(ONG_US_RM_Prom_RGB_FC_Pos_OD.png);
+    background-position: center right 100px;
+    background-repeat: no-repeat;
+    background-size: 400px 138px;
+}
+@media(max-width:1600px){
+    .sidebar-sublist-1 .page__header,
+    .sidebar-sublist-2 .page__header,
+    .sidebar-sublist-3 .page__header,
+    .sidebar-sublist-4 .page__header {
+        background-position: center right 30px;
+        background-size: 300px 104px;
+    } 
+}
+@media(max-width:1200px){
+    .sidebar-sublist-1 .page__header,
+    .sidebar-sublist-2 .page__header,
+    .sidebar-sublist-3 .page__header,
+    .sidebar-sublist-4 .page__header {
+        background-position: center right 10px;
+        background-size: 200px 69px;
+    }
+    .sidebar-sublist-1 .page__header h1.fr-view,
+    .sidebar-sublist-2 .page__header h1.fr-view,
+    .sidebar-sublist-3 .page__header h1.fr-view,
+    .sidebar-sublist-4 .page__header h1.fr-view {
+        max-width: 80%;
+    } 
+}
+@media(max-width:700px){
+    .sidebar-sublist-1 .page__header,
+    .sidebar-sublist-2 .page__header,
+    .sidebar-sublist-3 .page__header,
+    .sidebar-sublist-4 .page__header {
+        background-size: 200px 69px;
+    }
+    .sidebar-sublist-1 .page__header h1.fr-view,
+    .sidebar-sublist-2 .page__header h1.fr-view,
+    .sidebar-sublist-3 .page__header h1.fr-view,
+    .sidebar-sublist-4 .page__header h1.fr-view {
+        max-width: 50%;
+    } 
+}
+@media(max-width:480px){
+    .sidebar-sublist-1 .page__header,
+    .sidebar-sublist-2 .page__header,
+    .sidebar-sublist-3 .page__header,
+    .sidebar-sublist-4 .page__header {
+        background-size: 130px 45px;
+    }
+    .sidebar-sublist-1 .page__header h1.fr-view,
+    .sidebar-sublist-2 .page__header h1.fr-view,
+    .sidebar-sublist-3 .page__header h1.fr-view,
+    .sidebar-sublist-4 .page__header h1.fr-view {
+        max-width: 60%;
+    } 
+}
